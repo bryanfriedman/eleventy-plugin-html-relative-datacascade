@@ -4,6 +4,14 @@
   "description": "Eleventy 3 plugin to copy assets from Data Cascade (directory data and page data) relative to HTML output paths.",
   "type": "module",
   "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bryanfriedman/eleventy-plugin-html-relative-datacascade.git"
+  },
+  "homepage": "https://github.com/bryanfriedman/eleventy-plugin-html-relative-datacascade#readme",
+  "bugs": {
+    "url": "https://github.com/bryanfriedman/eleventy-plugin-html-relative-datacascade/issues"
+  }
   "exports": {
     ".": {
       "import": "./src/index.js"
