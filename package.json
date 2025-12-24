@@ -1,0 +1,40 @@
+{
+  "name": "@bryanfriedman/eleventy-plugin-html-relative-datacascade",
+  "version": "0.1.1",
+  "description": "Eleventy 3 plugin to copy assets from Data Cascade (directory data and page data) relative to HTML output paths.",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": {
+    ".": {
+      "import": "./src/index.js"
+    }
+  },
+  "keywords": [
+    "eleventy",
+    "11ty",
+    "eleventy-plugin",
+    "static-site",
+    "html-relative",
+    "data-cascade"
+  ],
+  "author": "Bryan Friedman",
+  "license": "MIT",
+  "peerDependencies": {
+    "@11ty/eleventy": "^3.0.0 || ^4.0.0-alpha"
+  },
+  "dependencies": {
+    "fast-glob": "^3.3.2"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^3.0.0",
+    "rimraf": "^6.0.0"
+  },
+  "scripts": {
+    "test": "node --test",
+    "clean": "rimraf test/output",
+    "prepublishOnly": "npm test"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
