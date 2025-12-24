@@ -11,7 +11,7 @@
   "homepage": "https://github.com/bryanfriedman/eleventy-plugin-html-relative-datacascade#readme",
   "bugs": {
     "url": "https://github.com/bryanfriedman/eleventy-plugin-html-relative-datacascade/issues"
-  }
+  },
   "exports": {
     ".": {
       "import": "./src/index.js"
