@@ -1,6 +1,6 @@
 {
   "name": "@bryanfriedman/eleventy-plugin-html-relative-datacascade",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Eleventy 3 plugin to copy assets from Data Cascade (directory data and page data) relative to HTML output paths.",
   "type": "module",
   "main": "src/index.js",
