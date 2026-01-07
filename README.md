@@ -64,14 +64,9 @@ For any page rendered from `blog/`, the plugin searches those patterns in the **
 
 ## Upstream status
 
-This package is a standalone implementation of an upstream Eleventy proposal to support **Data Cascade–driven html-relative copying** (e.g. `eleventyCopy` coming from directory data and page data).
+This package is a standalone implementation of an upstream Eleventy proposal to support **Data Cascade-driven html-relative copying** (e.g. `eleventyCopy` coming from directory data and page data).
 
-Upstream references:
-
-```text
-PR: https://github.com/11ty/eleventy/pull/3951
-Issue: https://github.com/11ty/eleventy/issues/3881
-```
+Upstream references: [PR](https://github.com/11ty/eleventy/pull/3951) | [Issue](https://github.com/11ty/eleventy/issues/3881)
 
 If/when Eleventy merges and releases equivalent functionality in core, **the core implementation should be preferred**. In that event, this plugin will likely shift into one of these roles:
 
